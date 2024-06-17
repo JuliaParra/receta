@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Favorite Food</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/public/css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="food">
+      <h1>Tu Menu Diario</h1>
+    </div>
+    <div class="banner">
+      <img src="" class="banner-img" alt="" />
+    </div>
+  </header>
+
+  <main>
+    <div class="pizarra">
+      <div class="receta">
+        <h2>INGREDIENTES</h2>
+        <div class="lista">
+          <ul class="lista-izquierda">
+            <li>
+              <input type="checkbox" id="ingredient1" />
+              <label for="ingredient1">300 g de garbanzos</label>
+            </li>
+            <li>
+              <input type="checkbox" id="ingredient2" />
+              <label for="ingredient2">400 g de morcillo (carne de ternera)</label>
+            </li>
+            <li>
+              <input type="checkbox" id="ingredient3" />
+              <label for="ingredient3">200 g de tocino</label>
+            </li>
+            <li>
+              <input type="checkbox" id="ingredient4" />
+              <label for="ingredient4">Espinazo de cerdo salado</label>
+            </li>
+          </ul>
+          <ul class="lista-derecha">
+            <li>
+              <input type="checkbox" id="ingredient5" />
+              <label for="ingredient5">Chorizo fresco</label>
+            </li>
+            <li>
+              <input type="checkbox" id="ingredient6" />
+              <label for="ingredient6">150 g de gallina</label>
+            </li>
+            <li>
+              <input type="checkbox" id="ingredient7" />
+              <label for="ingredient7">150 g de fideos</label>
+            </li>
+            <li>
+              <input type="checkbox" id="ingredient8" />
+              <label for="ingredient8">Patatas y repollo</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+      <section class="cronometro">
+        <h2>TIEMPO DE COCINADO</h2>
+        <div class="reloj">⏰<span>1:30:00</span></div>
+        <div id="time-display">01:30:00</div>
+        <button id="start-button">Iniciar</button>
+        <button id="stop-button" disabled>Parar</button>
+      </section>
+    </div>
+
+    <h2 class="pasos">PASOS</h2>
+    <section class="cont-elaboraciones">
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <p>1.</p>
+          <p class="card-text">
+            Lo primero que haremos será poner en remojo los huesos y los
+            garbanzos la noche anterior. Los huesos soltarán la sangre y las
+            impurezas y los garbanzos se rehidratarán. Divídelo en dos
+            cocciones. La primera, ponemos 30 minutos en la olla exprés (con el
+            agua hasta la mitad): las carcasas de pollo, los huesos de carne y
+            la carne de morcillo.
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <p>2.</p>
+          <p class="card-text">
+            Cuando pasen los 30 minutos, abrimos la olla rápida (con cuidado),
+            sacamos los huesos y metemos el repollo partido en dos, las
+            zanahorias peladas, las patatas peladas, los puerros, el apio, el
+            pollo, los chorizos (las morcillas coceremos a parte porque si no
+            se deshacen), el nabo, la panceta y los garbanzos. Sé que es un lío
+            de ingredientes, pero vamos... ponemos todo, menos la morcilla.
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <p>3.</p>
+          <p class="card-text">
+            Pasado ese tiempo (mirad el color del caldito), sacamos todos los
+            ingredientes y los ponemos en una fuente. Colamos el caldo y lo
+            dejamos reposar un poco por si queremos desgrasarlo. Sacamos un poco
+            de caldo y cocemos la morcilla en él. Luego, lo que haremos será
+            incorporar el caldo de cocer la morcilla a la olla exprés.
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <p>4.</p>
+          <p class="card-text">
+            Para las bolas de pan del cocido: batimos los huevos y los
+            mezclamos con el pan rallado. Freímos en abundante aceite caliente
+            y retiramos a un papel absorbente. Esto lo pondremos en la sopa
+            cuando lo sirvamos y absorberá el caldito... ya veréis qué bueno.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="tex-footer">&copy; 2024 Julia Parra</p>
+    <div class="social-icons">
+      <p>Redes sociales</p>
+      <a><img src="public/assets/img/icons.jpg" alt="Facebook, Instagram y X" class="img-fluid"></a>
+    </div>
+  </footer>
+
+  <script src="public/js/contador.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
