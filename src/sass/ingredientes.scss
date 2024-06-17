@@ -1,0 +1,67 @@
+
+.pizarra {
+
+    width: 90%;
+    
+    margin: 0%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    justify-items: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    border: 3px solid black;
+  
+   
+    
+  }
+  
+  
+  .receta {
+    width: 90%;
+    margin: 0px;
+    text-align: center;
+    background-image: url(/public/assets/img/pizarra.jpg);
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    
+         
+  }  
+  
+    
+  .lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-image: url(/public/assets/img/pizarra.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    
+    
+      
+    }
+  
+  
+  .lista-izquierda {
+      
+    padding: 20px;
+    text-align: left;
+    list-style-type: none;
+    
+  
+    }
+  
+  .lista-derecha {
+  
+  padding: 20px;
+  text-align: left;
+  list-style-type: none;
+  
+  
+    }
+  
+  
+    
+  

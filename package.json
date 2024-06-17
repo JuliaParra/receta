@@ -5,6 +5,9 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
+
+    "sass": "sass input.scss output.css",
+    "sass-w": "sass --watch src/sass/styles.scss:public/css/styles.css",
     
     "test": "echo \"Error: no test specified\" && exit 1"
   },

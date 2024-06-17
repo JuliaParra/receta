@@ -1,0 +1,24 @@
+
+.pasos {
+    font-style: oblique;
+    color: #000;
+    text-align: center;
+    margin: 5%;
+    
+}
+
+
+.cont-elaboraciones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
+    justify-items: center;
+}
+
+.card-body {
+    border-radius: 2%;
+    color: rgb(255, 255, 255);
+    background-image: url(/public/assets/img/pizarra.jpg);
+    background-size: cover;
+
+}
